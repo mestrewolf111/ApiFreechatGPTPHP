@@ -80,7 +80,7 @@ curl_close($curl);
 
  $data = getStr($response, 'text":"', '"');
 
- echo '#Aprovada'.$data.'';
+ echo '#Reposta =>'.$data.'';
 
 ?>
  
